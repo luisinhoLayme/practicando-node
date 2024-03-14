@@ -1,0 +1,28 @@
+# Todos
+GET {{URL}}/todos
+
+# Todos for id
+GET {{URL}}/todos/8
+
+# Create Todos
+POST {{URL}}/todos
+Content-Type: application/json
+
+{
+  "text": "This is a new todo",
+  "completedAt": "2024-03-13",
+  "id": 1344,
+  "boolean": true
+}
+
+# Update Todos
+PUT {{URL}}/todos/8
+Content-Type: application/json
+
+{
+  "text": "This is a new todo 8",
+  "completedAt": "2024-04-11"
+}
+
+# Delete Todo
+DELETE {{URL}}/todos/5

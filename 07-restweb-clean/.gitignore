@@ -1,0 +1,10 @@
+
+public/heroes/
+node_modules/
+keys/
+/.env
+
+dist/
+/postgres
+
+.vercel
